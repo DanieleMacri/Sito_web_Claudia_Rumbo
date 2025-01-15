@@ -1,0 +1,45 @@
+
+
+/* navbar */
+nav {
+    background-color: rgb(104, 218, 253);
+    height: 10vh;
+}
+
+.buttonCollaps {
+    color: white;
+}
+
+.navbarcollaps {
+    background-color: rgb(104, 218, 253);
+}
+
+
+/* header */
+.logo {
+    height: 50px;
+    
+}
+
+.ul-social {
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    height: 10vh;
+}
+
+.row-header{
+    justify-content: space-around;
+}
+
+/* .carousel-custom {
+    width: 40px;
+} */
+
+
+/* mediaquery */
+@media screen and(max-width:991px){
+    .icon-navbar{
+        display: none;
+    }
+}
