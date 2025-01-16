@@ -28,7 +28,7 @@
             </div>
 
             <div id="carouselExample"
-                class="carousel carousel-custom slide my-5 px-0 col-12 col-md-6 d-flex justify-content-end"
+                class="carousel carousel-custom carousel-height slide my-5 px-0 col-12 col-md-6 d-flex justify-content-end"
                 data-bs-slide="true">
                 <div class="carousel-inner" data-bs-slide="true">
                     <div class="carousel-item active" data-bs-slide="true">

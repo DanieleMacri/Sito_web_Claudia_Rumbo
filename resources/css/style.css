@@ -32,9 +32,9 @@ nav {
     justify-content: space-around;
 }
 
-/* .carousel-custom {
-    width: 40px;
-} */
+.carousel-height {
+    height: 70vh;
+}
 
 
 /* mediaquery */
