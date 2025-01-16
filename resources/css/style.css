@@ -1,4 +1,17 @@
+/* font */
+h1,h2,h3,h4,h5,h6{
+    font-family: "Playwrite VN", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
+*{
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
 
 /* navbar */
 nav {
@@ -15,9 +28,12 @@ nav {
 }
 
 
-/* header */
 .logo {
     height: 50px;
+    
+}
+/* header */
+h1{
     
 }
 
@@ -33,13 +49,13 @@ nav {
 }
 
 .carousel-height {
-    height: 70vh;
+    height: 60vh;
+    
 }
 
 
 /* mediaquery */
-@media screen and(max-width:991px){
-    .icon-navbar{
-        display: none;
-    }
-}
+
+
+
+
