@@ -53,6 +53,10 @@ h1{
     
 }
 
+/* form */
+form {
+    border-radius: 25px;
+}
 
 /* mediaquery */
 

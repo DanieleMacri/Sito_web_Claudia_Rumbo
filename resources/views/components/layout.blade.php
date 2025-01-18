@@ -20,7 +20,16 @@
 </head>
 
 <body>
-
+    @if (session('message'))
+        <div class="alert alert-success" >
+            <p>{{ session('message') }}</p>
+        </div>
+    @endif
+    @if (session('error'))
+        <div class="alert alert-danger">
+            <p>{{ session('error') }}</p>
+        </div>
+    @endif
     <x-navbar />
 
     <div class="min-vh-100">
