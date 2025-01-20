@@ -21,9 +21,9 @@
 
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row row-header">
-            <div class="col-12 col-md-6 mt-5 my-5" data-aos="fade-up"
+            <div class="col-12 col-md-6 mt-5 mt-5" data-aos="fade-up"
             data-aos-duration="3000">
                 <h2 class="display-1 text-center mt-5">Chi sono</h2>
                 <p class="m-5">Mi chiamo Claudia Rumbo e sono Logopedista. Mi occupo di disturbi del linguaggio e
@@ -33,7 +33,7 @@
                     professioni sanitari</p>
             </div>
 
-            <div id="carouselExampleCaptions" class="carousel slide carousel carousel-custom carousel-height slide my-5 col-12 col-md-6 d-flex justify-content-end">
+            <div id="carouselExampleCaptions" class="carousel slide carousel carousel-custom carousel-height slide my-5 col-12 col-md-6 d-flex justify-content-end ">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -41,17 +41,17 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="/image/foto1.jpeg" class="d-block w-100" alt="...">
+                    <img src="/image/foto1.jpeg" class="d-block w-100 img-custom img-fluid" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="/image/foto2.jpeg" class="d-block w-100" alt="...">
+                    <img src="/image/foto2.jpeg" class="d-block w-100 img-custom img-fluid" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="/image/foto3.avif" class="d-block w-100" alt="...">
+                    <img src="/image/foto3.avif" class="d-block w-100 img-custom img-fluid" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                   </div>
@@ -66,45 +66,14 @@
                 </button>
               </div>
 
-            {{-- <div id="carouselExampleAutoplaying"
-                class="carousel carousel-custom carousel-height slide my-5 col-12 col-md-6 d-flex justify-content-end"
-                data-bs-slide="true" data-aos="fade-up"
-                data-aos-duration="3000"> 
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  </div>
-                <div class="carousel-inner" data-bs-slide="true">
-                    <div class="carousel-item active" data-bs-slide="true">
-                        <img src="/image/foto1.jpeg" class="d-block w-100" alt="immagine logopedista">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/image/foto2.jpeg" class="d-block w-100" alt="immagine logopedista">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/image/foto3.avif" class="d-block w-100" alt="immagine logopedista">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div> --}}
 
         </div>
     </div>
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-6">
-                <div class="" data-aos="fade-up" data-aos-duration="3000">
-                    <h2 class="display-1 text-center mt-5">Il mio studio</h2>
+            <div class="col-12 col-md-6 ">
+                <div class="">
+                    <h2 class="display-1 text-center mt-5" id="scrollspyHeading1">Il mio studio</h2>
                     <p class="m-5 text-center">Situato nella zona di Ciampino in Via Pietro Mascagni 21/A</a>, lo studio offre un ambiente tranquillo e confortevole che coniuga la buona riuscita del trattamento con la serenità della persona.</p>
                 </div>
             </div>
@@ -120,13 +89,13 @@
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="/image/foto3.avif" class="d-block w-100" alt="...">
+                        <img src="/image/foto3.avif" class="d-block w-100 img-fluid img-custom" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="/image/foto3.avif" class="d-block w-100" alt="...">
+                        <img src="/image/foto3.avif" class="d-block w-100 img-fluid img-custom" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="/image/foto3.avif" class="d-block w-100" alt="...">
+                        <img src="/image/foto3.avif" class="d-block w-100 img-fluid img-custom" alt="...">
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -141,4 +110,5 @@
             </div>
         </div>
     </div>
+
 </header>

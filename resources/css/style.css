@@ -13,6 +13,10 @@ h1,h2,h3,h4,h5,h6{
     font-style: normal;
 }
 
+/* body */
+body{
+    background-color: rgb(255, 254, 250);
+}
 /* navbar */
 nav {
     background-color: rgb(104, 218, 253);
@@ -49,13 +53,30 @@ h1{
 }
 
 .carousel-height {
-    height: 60vh;
     
 }
+
+/* .carousel-custom {
+    height: 60vh;
+} */
+
+.border-custom {
+    border-radius: 25px;
+}
+
+.img-custom {
+    border-radius: 25px;
+}
+
 
 /* form */
 form {
     border-radius: 25px;
+}
+
+.button-color {
+    background-color: rgb(104, 218, 253);
+    color: white;
 }
 
 /* mediaquery */

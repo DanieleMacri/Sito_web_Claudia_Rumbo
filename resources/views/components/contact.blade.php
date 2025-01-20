@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid px-4 " id="scrollspyHeading2">
     <div class="row justify-content-center">
         <form action="{{route('contact')}}" method="POST" class="col-12 col-md-6 mt-5 shadow border p-4 text-center">
             @csrf
@@ -14,7 +14,7 @@
               <label class="form-label">Messaggio</label>
               <textarea name="message" cols="30" rows="10" class="form-control"></textarea>
             </div>
-            <button type="submit" class="btn border text-center">Invia email</button>
+            <button type="submit" class="btn border text-center button-color">Invia email</button>
           </form>
     </div>
 </div>
